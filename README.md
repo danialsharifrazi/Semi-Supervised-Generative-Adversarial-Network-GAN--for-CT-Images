@@ -1,2 +1,7 @@
 # Semi-Supervised-Generative-Adversarial-Network(GAN)-for-CT-Images
- Uncertainty-aware semi-supervised method using large unlabeled and limited labeled COVID-19 data
+The code belongs to the paper entitled "Uncertainty-Aware Semi-Supervised Method Using Large Unlabeled and Limited Labeled COVID-19 Data".
+If you use the code, please cite our paper too.
+
+Paper link:
+https://dl.acm.org/doi/abs/10.1145/3462635
+
