@@ -10,7 +10,7 @@ def ROC_diagram(counter,model,testX,testy):
     ns_fpr, ns_tpr, _ = roc_curve(testy, ns_probs)
     lr_fpr, lr_tpr, _ = roc_curve(testy, lr_probs)
 
-    plt.figure('ROC Diagram',dpi=200)
+    plt.figure('ROC Diagram',dpi=100)
     plt.plot(ns_fpr, ns_tpr, linestyle='--')
     plt.plot(lr_fpr, lr_tpr, marker='.',label=f'{counter} Itreration')
     plt.xlabel('False Positive Rate')
